@@ -1,0 +1,43 @@
+/* Seleziona l'h1 con classe 'display-4' all'interno di un elemento con classe 'jumbotron' */
+.jumbotron h1.display-4
+
+/* Seleziona gli elementi 'span' che sono figli diretti dell'elemento con classe 'nav' */
+.nav > span
+
+/* Seleziona i link con classe 'font-weight-bold' all'interno di un elemento con classe 'jumbotron' */
+.jumbotron a.font-weight-bold
+
+/* Seleziona il primo elemento con classe 'blog-post' */
+.blog-post:first-child
+
+/* Seleziona l'elemento 'hr' che è il primo figlio diretto di un elemento con classe 'blog-post',
+   e lo colora di rosso */
+.blog-post:first-child hr {
+    color: red;
+}
+
+/* Seleziona gli elementi 'span' che sono figli diretti dell'elemento con classe 'nav' e sono
+   anche figli con indice pari */
+.nav > span:nth-child(even)
+
+/* Seleziona tutti gli elementi 'li' che sono figli diretti del primo elemento 'ol' all'interno
+   dell'elemento con classe 'blog-sidebar' */
+.blog-sidebar ol:first-child li
+
+/* Seleziona il link all'interno dell'elemento con classe 'blog-post-meta' che è il secondo figlio
+   dell'elemento con classe 'blog-post' che è il secondo elemento */
+.blog-post:nth-child(2) .blog-post-meta a
+
+/* Seleziona il secondo elemento 'li' all'interno del terzo elemento 'li' che è figlio diretto
+   dell'elemento con classe 'blog-post' */
+.blog-post:nth-child(3) li:nth-child(2)
+
+/* Seleziona il link con classe 'float-right' */
+a.float-right
+
+/* Seleziona il bottone con classe 'btn-outline-secondary' all'interno dell'elemento con classe
+   'blog-pagination' */
+.blog-pagination .btn-outline-secondary
+
+/* Seleziona il secondo link all'interno degli elementi con classe 'footer-links' */
+.footer-links a:nth-child(2)
